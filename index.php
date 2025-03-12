@@ -44,6 +44,9 @@ switch ($url) {
     case 'home':
         $controllerInstance->display();
         break;
+    case 'contact':
+        $controllerInstance->displayContact();
+        break;
 
     default:
         echo "Erreur 404 : page non trouvée.";
